@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		FE2C71C9233013E30087EBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C71C8233013E30087EBAD /* AppDelegate.swift */; };
 		FE2C71CB233013E30087EBAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71CA233013E30087EBAD /* GameScene.sks */; };
-		FE2C71CD233013E30087EBAD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71CC233013E30087EBAD /* Actions.sks */; };
 		FE2C71CF233013E30087EBAD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C71CE233013E30087EBAD /* GameScene.swift */; };
 		FE2C71D1233013E30087EBAD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C71D0233013E30087EBAD /* GameViewController.swift */; };
 		FE2C71D4233013E30087EBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71D2233013E30087EBAD /* Main.storyboard */; };
 		FE2C71D6233013E50087EBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71D5233013E50087EBAD /* Assets.xcassets */; };
 		FE2C71D9233013E50087EBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71D7233013E50087EBAD /* LaunchScreen.storyboard */; };
+		FE2C71E123309DB40087EBAD /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71E023309DB40087EBAD /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE2C71C5233013E30087EBAD /* Project11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2C71C8233013E30087EBAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE2C71CA233013E30087EBAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FE2C71CC233013E30087EBAD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FE2C71CE233013E30087EBAD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FE2C71D0233013E30087EBAD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FE2C71D3233013E30087EBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE2C71D5233013E50087EBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2C71D8233013E50087EBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2C71DA233013E50087EBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2C71E023309DB40087EBAD /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +62,13 @@
 			children = (
 				FE2C71C8233013E30087EBAD /* AppDelegate.swift */,
 				FE2C71CA233013E30087EBAD /* GameScene.sks */,
-				FE2C71CC233013E30087EBAD /* Actions.sks */,
 				FE2C71CE233013E30087EBAD /* GameScene.swift */,
 				FE2C71D0233013E30087EBAD /* GameViewController.swift */,
 				FE2C71D2233013E30087EBAD /* Main.storyboard */,
 				FE2C71D5233013E50087EBAD /* Assets.xcassets */,
 				FE2C71D7233013E50087EBAD /* LaunchScreen.storyboard */,
 				FE2C71DA233013E50087EBAD /* Info.plist */,
+				FE2C71E023309DB40087EBAD /* FireParticles.sks */,
 			);
 			path = Project11;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 			files = (
 				FE2C71D4233013E30087EBAD /* Main.storyboard in Resources */,
 				FE2C71CB233013E30087EBAD /* GameScene.sks in Resources */,
+				FE2C71E123309DB40087EBAD /* FireParticles.sks in Resources */,
 				FE2C71D6233013E50087EBAD /* Assets.xcassets in Resources */,
 				FE2C71D9233013E50087EBAD /* LaunchScreen.storyboard in Resources */,
-				FE2C71CD233013E30087EBAD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vintagerobot.Project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -322,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vintagerobot.Project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
